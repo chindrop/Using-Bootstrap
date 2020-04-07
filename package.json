@@ -1,5 +1,5 @@
 {
-  "name": "Newsweek",
+  "name": "Using-Bootstrap",
   "version": "1.0.0",
   "description": "This is the Sixth project of the Main HTML/CSS curriculum at [Microverse](https:www.microverse.org/) - @microverseinc",
   "main": "index.html",
@@ -16,12 +16,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chindrop/Newsweek.git"
+    "url": "git+https://github.com/chindrop/Using-Bootstrap.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/chindrop/Newsweek/issues"
+    "url": "https://github.com/chindrop/Using-Bootstrap/issues"
   },
-  "homepage": "https://github.com/chindrop/Newsweek#readme"
+  "homepage": "https://github.com/chindrop/Using-Bootstrap#readme"
 }

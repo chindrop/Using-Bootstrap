@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Rokkitt:700&display=swap');
+
+.middle-logo img {
+  object-position: 0 0;
+  height: 70px;
+}
+
+.logo-cont {
+  background-color: #f72210;
+  height: 95px;
+}
+
