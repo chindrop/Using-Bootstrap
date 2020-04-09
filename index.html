@@ -19,24 +19,90 @@
   <link rel="stylesheet" href="index.css">
 </head>
 
-<body class="bg-light">
-<div class="bg-white">
-  <header class="text-white container w-100 p-0">
-    <div class="navbar logo-cont row w-100">
-      <div class="date-weather">
-        <div class="date pt-3 font-weight-bold">Wed, April 07, 2020</div>
-      </div>
-      <div class="middle-logo navbar">
-        <a class="navbar-brand  href="#"><img src="images/newsweek_logo.svg" alt=""></a>
-      </div>
-      <div class="signin-cont flex">
-          <a class="text-uppercase text-white font-weight-bold" href="#">sign in</a>
-          <a class="text-uppercase bg-white text-danger font-weight-bold" href="#">suscribe&nbsp;<span class="fas fa-chevron-right"></span></a>
+<body class="mx-2">
+  <div class="bg-light m-auto p-auto">
+    <header class="container-fluid text-white">
+      <div class="navbar logo-cont">
+        <div class="date-weather">
+          <div class="date pt-3 font-weight-bold d-none d-lg-block d-xl-block">Wed, April 07, 2020</div>
+          <div class="middle-logo navbar d-lg-none d-xl-none">
+            <a class=" "  href="#"><img src="images/newsweek_logo.svg" alt=""></a>
+          </div>
         </div>
+        <div class="middle-logo navbar d-none d-lg-block d-xl-block">
+          <a  href="#"><img src="images/newsweek_logo.svg" alt=""></a>
+        </div>
+        <div class="signin-cont flex">
+          <a class="text-uppercase text-white font-weight-bold" href="#">sign in</a>
+          <a class="text-uppercase bg-white text-danger font-weight-bold" href="#">suscribe&nbsp;<span
+              class="fas fa-chevron-right"></span></a>
+          <a class="text-decoration-none d-lg-none d-xl-none" href="#"><i class="fas fa-bars text-white font-weight-bold"></i></a>
+        </div>
+      </div>
+    </header>
+    <nav class="navbar d-none d-lg-block d-xl-block border-bottom">
+      <ul class="nav align-item-center justify-content-center align-content-between d-flex flex-grow-1 p-0 m-0" style="color: black;" >
+        <li class="nav-item border-right text-center flex-grow-1 font-weight-bold" ><a class="nav-link text-decoration-none" href="#">U.S.</a></li>
+        <li class="nav-item border-right text-center flex-grow-1 font-weight-bold"><a class="nav-link text-decoration-none" href="#">World</a>
+        </li>
+        <li class="nav-item border-right text-center flex-grow-1 font-weight-bold"><a class="nav-link text-decoration-none" href="#">Business</a>
+        </li>
+        <li class="nav-item border-right text-center flex-grow-1 font-weight-bold"><a class="nav-link text-decoration-none" href="#">Tech &
+            Science</a></li>
+        <li class="nav-item border-right text-center flex-grow-1 font-weight-bold"><a class="nav-link text-decoration-none" href="#">Culture</a>
+        </li>
+        <li class="nav-item border-right text-center flex-grow-1 font-weight-bold"><a class="nav-link text-decoration-none" href="#">Newsgeek</a>
+        </li>
+        <li class="nav-item border-right text-center flex-grow-1 font-weight-bold"><a class="nav-link text-decoration-none" href="#">Sports</a>
+        </li>
+        <li class="nav-item border-right text-center flex-grow-1 font-weight-bold"><a class="nav-link text-decoration-none" href="#">Health</a>
+        </li>
+        <li class="nav-item border-right text-center flex-grow-1 font-weight-bold"><a class="nav-link text-decoration-none" href="#">The
+            Debate</a></li>
+        <li class="nav-item border-right text-center flex-grow-1 font-weight-bold"><a class="nav-link text-decoration-none"  href="#">Vantage</a>
+        </li>
+        <li class="nav-item text-center flex-grow-1 font-weight-bold"><a class="nav-link text-decoration-none" href="#">Weather</a></li>
+        <li>
+          <input class=" border-none outline-0" type="search" placeholder="Search" aria-label="Search" id="search-input">
+        <label for="search-input" class="mb-0 mt-1"></label>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <div class="container-fluid">
+  <div class="row bg-white">
+    <div class="row d-flex jutisfy-content-center col-xl-8 col-lg-8 mt-5">
+      <div class="featured-stories col-xl-4 col-lg-4 p-auto ">
+        <div class="card" style="width: 21.375rem;">
+          <img class="card-img-top" src="https://d.newsweek.com/en/full/1579695/dominic-raab.jpg?w=397&h=265&q=90&f=ab8ebdd98bf8144162c22f5eb61a216e" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="top-stories col-xl-8 col-lg-8 ">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="https://d.newsweek.com/en/full/1579695/dominic-raab.jpg?w=397&h=265&q=90&f=ab8ebdd98bf8144162c22f5eb61a216e" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+  </div>
+    <div class="opinion col-12 col-lg mt-5 border-0 outline-0">
+      <div class="card" style="width: 18rem;">
+        <div class="card-header">
+          Featured
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Cras justo odio</li>
+          <li class="list-group-item">Dapibus ac facilisis in</li>
+          <li class="list-group-item">Vestibulum at eros</li>
+        </ul>
+      </div>
     </div>
-  </header>
-  
-</div>
+  </div>
+  </div>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
     crossorigin="anonymous"></script>
