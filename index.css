@@ -60,7 +60,8 @@
 .text-bottom {
   position: absolute;
   color: red;
-  background-color: royalblue;
+  background-color: whitesmoke;
+  opacity: 0.5;
   bottom: 0;
 }
 
@@ -75,4 +76,9 @@
 
 .op-cont {
   line-height: 0.5;
+}
+
+.pan-image {
+  width: 151px;
+  height: 151px;
 }
