@@ -19,9 +19,9 @@
   <link rel="stylesheet" href="index.css">
 </head>
 
-<body class="mx-2">
-  <div class="bg-light m-auto p-auto">
-    <header class="container-fluid text-white">
+<body class="container-fluid bg-light p-0">
+  <div class="bg-white m-auto p-auto">
+    <header class="container px-0 text-white">
       <div class="navbar logo-cont">
         <div class="date-weather">
           <div class="date pt-3 font-weight-bold d-none d-lg-block d-xl-block">Wed, April 07, 2020</div>
@@ -40,103 +40,148 @@
               class="fas fa-bars text-white font-weight-bold"></i></a>
         </div>
       </div>
+      <nav class="nav navbar d-none d-lg-block d-xl-block border-bottom px-0 flex-nowrap">
+        <ul class="nav align-item-center justify-content-center align-content-between d-flex flex-grow-1 p-0 m-0"
+          style="color: black;">
+          <li class="nav-item border-right text-center flex-grow-1 font-weight-bold"><a
+              class="text-dark nav-link text-decoration-none" href="#">U.S.</a></li>
+          <li class="nav-item border-right text-center flex-grow-1 font-weight-bold"><a
+              class="text-dark nav-link text-decoration-none" href="#">World</a>
+          </li>
+          <li class="nav-item border-right text-center flex-grow-1 font-weight-bold"><a
+              class="nav-link text-decoration-none" href="#">Business</a>
+          </li>
+          <li class="nav-item border-right text-center flex-grow-1 font-weight-bold"><a
+              class="nav-link text-decoration-none" href="#">Tech &
+              Science</a></li>
+          <li class="nav-item border-right text-center flex-grow-1 font-weight-bold"><a
+              class="nav-link text-decoration-none" href="#">Culture</a>
+          </li>
+          <li class="nav-item border-right text-center flex-grow-1 font-weight-bold"><a
+              class="nav-link text-decoration-none" href="#">Newsgeek</a>
+          </li>
+          <li class="nav-item border-right text-center flex-grow-1 font-weight-bold"><a
+              class="nav-link text-decoration-none" href="#">Sports</a>
+          </li>
+          <li class="nav-item border-right text-center flex-grow-1 font-weight-bold"><a
+              class="nav-link text-decoration-none" href="#">Health</a>
+          </li>
+          <li class="nav-item border-right text-center flex-grow-1 font-weight-bold"><a
+              class="nav-link text-decoration-none" href="#">The
+              Debate</a></li>
+          <li class="nav-item border-right text-center flex-grow-1 font-weight-bold"><a
+              class="nav-link text-decoration-none" href="#">Vantage</a>
+          </li>
+          <li class="nav-item text-center flex-grow-1 font-weight-bold"><a class="nav-link text-decoration-none"
+              href="#">Weather</a></li>
+          <li class="d-flex align-items-center">
+            <input class=" border-top-0 border-bottom-0 border-left-0 border-right-0 outline-0 w-50" type="search"
+              placeholder="Search" aria-label="Search" id="search-input">
+            <label for="search-input" class="mb-0 mt-1 "><i class="fas fa-search font-weight-bold"></i></label>
+          </li>
+        </ul>
+      </nav>
     </header>
-    <nav class="navbar d-none d-lg-block d-xl-block border-bottom">
-      <ul class="nav align-item-center justify-content-center align-content-between d-flex flex-grow-1 p-0 m-0"
-        style="color: black;">
-        <li class="nav-item border-right text-center flex-grow-1 font-weight-bold"><a
-            class="text-dark nav-link text-decoration-none" href="#">U.S.</a></li>
-        <li class="nav-item border-right text-center flex-grow-1 font-weight-bold"><a
-            class="text-dark nav-link text-decoration-none" href="#">World</a>
-        </li>
-        <li class="nav-item border-right text-center flex-grow-1 font-weight-bold"><a
-            class="nav-link text-decoration-none" href="#">Business</a>
-        </li>
-        <li class="nav-item border-right text-center flex-grow-1 font-weight-bold"><a
-            class="nav-link text-decoration-none" href="#">Tech &
-            Science</a></li>
-        <li class="nav-item border-right text-center flex-grow-1 font-weight-bold"><a
-            class="nav-link text-decoration-none" href="#">Culture</a>
-        </li>
-        <li class="nav-item border-right text-center flex-grow-1 font-weight-bold"><a
-            class="nav-link text-decoration-none" href="#">Newsgeek</a>
-        </li>
-        <li class="nav-item border-right text-center flex-grow-1 font-weight-bold"><a
-            class="nav-link text-decoration-none" href="#">Sports</a>
-        </li>
-        <li class="nav-item border-right text-center flex-grow-1 font-weight-bold"><a
-            class="nav-link text-decoration-none" href="#">Health</a>
-        </li>
-        <li class="nav-item border-right text-center flex-grow-1 font-weight-bold"><a
-            class="nav-link text-decoration-none" href="#">The
-            Debate</a></li>
-        <li class="nav-item border-right text-center flex-grow-1 font-weight-bold"><a
-            class="nav-link text-decoration-none" href="#">Vantage</a>
-        </li>
-        <li class="nav-item text-center flex-grow-1 font-weight-bold"><a class="nav-link text-decoration-none"
-            href="#">Weather</a></li>
-        <li class="d-flex align-items-center">
-          <input class=" border-top-0 border-bottom-0 border-left-0 border-right-0 outline-0 w-50" type="search"
-            placeholder="Search" aria-label="Search" id="search-input">
-          <label for="search-input" class="mb-0 mt-1 "><i class="fas fa-search font-weight-bold"></i></label>
-        </li>
-      </ul>
-    </nav>
-  </div>
-  <div class="container-fluid ">
-    <div class="row bg-white mt-5 ustify-content-center">
+    <!---Main body section-->
+  <main class="container-fluid p-0">
+    <div class="row bg-white mt-5 justify-content-center">
       <!--STORY SECTION-->
-      <div class="row col-12 col-lg-8">
-        <div class="row featured-stories col-12 col-md-5 p-auto ">
+      <div class="row col-12 col-lg-9">
+        <div class=" featured-stories col-12 col-md-5 p-auto ">
           <p class="col-12 text-uppercase font-weight-bold text-muted mb-0 p-0">featured stories</p>
           <div class="col-12 card border-0 pb-3 pt-0 px-0">
             <div class="image-wrapper">
               <img class="card-img-top"
-                src="https://d.newsweek.com/en/full/1581426/covid19-coronavirus-getty.jpg?w=397&h=265&q=90&f=afe9b959cbad77f2f50f8008b65a120d"
+                src="https://d.newsweek.com/en/full/1581822/wisconsin.jpg?w=397&h=265&q=90&f=2485b19b9d10e446455ebe9491ccea81"
                 alt="Card image cap">
-              <p class="text-bottom p-0 m-0 font-weight-bold">HEALTH</p>
+              <p class="text-bottom m-0 font-weight-bold">U.S.</p>
             </div>
-            <div class="card-body">
-              <h5 class="font-weight-bold"><a class="text-decoration-none text-cont" href="#">What Does a Furlough Mean
-                  for Your Employment Rights?</a></h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
+            <div class="card-body p-0">
+              <h5 class="font-weight-bold"><a class="text-decoration-none text-cont" href="#">Most Americans Believe Voters Should Be Able to Mail in Ballots: Poll</a></h5>
+              <p class="card-text">"The pandemic has altered how people want to vote," said Page Gardner, founder of the Center for Voter Information.</p>
             </div>
           </div>
           <div class="col-12 card p-0 border-0">
             <div class="image-wrapper">
               <img class="card-img-top"
-                src="https://d.newsweek.com/en/full/1581426/covid19-coronavirus-getty.jpg?w=397&h=265&q=90&f=afe9b959cbad77f2f50f8008b65a120d"
+                src="https://d.newsweek.com/en/full/1581855/cough-chamber.jpg?w=397&h=265&q=90&f=76ad86e630efde08d14b892691145647"
                 alt="Card image cap">
-              <p class="text-bottom p-0 m-0">U.S</p>
+              <p class="text-bottom m-0 font-weight-bold">HEALTH</p>
             </div>
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
+            <div class="card-body p-0">
+              <h5 class="font-weight-bold"><a class="text-decoration-none text-cont" href="#">Cough Chamber Shows Six Feet of Social Distancing May Not Be Enough</a></h5>
+              <p class="card-text">The controlled environment is a sealed wood and glass box with a hole at one end into which participants can safely cough.</p>
             </div>
           </div>
           <div class="col-12 card p-0 border-0">
             <div class="image-wrapper">
               <img class="card-img-top"
-                src="https://d.newsweek.com/en/full/1581426/covid19-coronavirus-getty.jpg?w=397&h=265&q=90&f=afe9b959cbad77f2f50f8008b65a120d"
+                src="https://d.newsweek.com/en/full/1582036/trump-briefing-4-15.jpg?w=397&h=265&q=90&f=f24ebe3361b7789c3fc014a86c6b447e"
                 alt="Card image cap">
-              <p class="text-bottom p-0 m-0">U.S</p>
+              <p class="text-bottom m-0 font-weight-bold">U.S</p>
             </div>
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
+            <div class="card-body p-0">
+              <h5 class="font-weight-bold"><a class="text-decoration-none text-cont" href="#">Trump Threatens to Adjourn Congress if He Can't Bypass Senate on Nomination</a></h5>
+              <p class="card-text">The president threatened to invoke a power never before used by any president, unless Congress adjourns to allow him to appoint individuals who the Senate has declined to approve/p>
             </div>
           </div>
           <div class="col-12 card p-0 border-0">
             <div class="image-wrapper">
               <img class="card-img-top"
-                src="https://d.newsweek.com/en/full/1581426/covid19-coronavirus-getty.jpg?w=397&h=265&q=90&f=afe9b959cbad77f2f50f8008b65a120d"
+                src="https://d.newsweek.com/en/full/1582017/social-distancing-work.jpg?w=397&h=265&q=90&f=4d8fd3b609a7732005e3204b54b1a5c8"
                 alt="Card image cap">
-              <p class="text-bottom p-0 m-0">U.S</p>
+              <p class="text-bottom m-0 font-weight-bold">U.S</p>
             </div>
             <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
+              <h5 class="font-weight-bold"><a class="text-decoration-none text-cont" href="#">Pennsylvania Lawmakers Pass Bill That Would Allow Businesses to Reopen</a></h5>
+              <p class="card-text">Pennsylvania Governor Tom Wolf declined to state whether he intends to veto the legislation.</p>
+            </div>
+          </div>
+          <div class="col-12 card p-0 border-0">
+            <div class="image-wrapper">
+              <img class="card-img-top"
+                src="https://d.newsweek.com/en/full/1582053/kystone-xl-pipeline.jpg?w=397&h=265&q=90&f=8deed6887daa52fd10d4bccbc5295d5b"
+                alt="Card image cap">
+              <p class="text-bottom m-0 font-weight-bold">U.S</p>
+            </div>
+            <div class="card-body p-0">
+              <h5 class="font-weight-bold"><a class="text-decoration-none text-cont" href="#">Keystone XL Pipeline Put on Hold as Federal Judge Invalidates Permit</a></h5>
+              <p class="card-text">"Today's ruling sends a clear signal nationwide that people and the planet must come before profits for polluting corporations," said Friends of the Earth's Marcie Keever in a Wednesday statement.</p>
+            </div>
+          </div>
+          <div class="col-12 card p-0 border-0">
+            <div class="image-wrapper">
+              <img class="card-img-top"
+                src="https://d.newsweek.com/en/full/1575945/cybersecurity-vantage-hp-sponsor.jpg?w=500&h=333&f=ac517642217c0d9cec695be60008ce2a"
+                alt="Card image cap">
+              <p class="text-bottom m-0 font-weight-bold">SPONSORED INSIGHT</p>
+            </div>
+            <div class="card-body p-0">
+              <h5 class="font-weight-bold"><a class="text-decoration-none text-cont" href="#">Weathering the Perfect Storm</a></h5>
+              <p class="card-text">COVID-19 is not our only enemy. While the world confronts a pandemic, our critical infrastructure is vulnerable to cyberattack. Read this new report on where the weak points are and how to strengthen defenses against terrorists and cyber-criminals.</p>
+            </div>
+          </div>
+          <div class="col-12 card p-0 border-0">
+            <div class="image-wrapper">
+              <img class="card-img-top"
+                src="https://d.newsweek.com/en/full/1572014/worlds-best-hospitals-2020.png?w=500&h=333&f=c871e2709e79f9ba030be976797f7aa2"
+                alt="Card image cap">
+            </div>
+            <div class="card-body p-0">
+              <h5 class="font-weight-bold"><a class="text-decoration-none text-cont" href="#">World's Best Hospitals 2020</a></h5>
+              <p class="card-text">Newsweek partnered with Statista Inc. to rank the leading hospitals in 21 countries</p>
+            </div>
+          </div>
+          <div class="col-12 card p-0 border-0">
+            <div class="image-wrapper">
+              <img class="card-img-top"
+                src="https://d.newsweek.com/en/full/1567280/all-points-north-lodge.jpg?w=500&h=333&f=317680b645c813e7054428bff80f9d38"
+                alt="Card image cap">
+              <p class="text-bottom m-0 font-weight-bold">SPONSORED INSIGHT</p>
+            </div>
+            <div class="card-body p-0">
+              <h5 class="font-weight-bold"><a class="text-decoration-none text-cont" href="#">Who Leads the Field in Dependency Treatment in 2020?</a></h5>
+              <p class="card-text">When seeking guidance on beating an addiction, there are many things to consider. Where do you go to ensure that you will not just turn the corner, but keep carrying on down the right road for the rest of your life? Find out more.</p>
             </div>
           </div>
         </div>
@@ -147,103 +192,121 @@
           <div class="card mt-2 border-0">
             <div class="image-wrapper">
               <img class="card-img-top"
-                src="https://d.newsweek.com/en/full/1579695/dominic-raab.jpg?w=397&h=265&q=90&f=ab8ebdd98bf8144162c22f5eb61a216e"
+                src="https://d.newsweek.com/en/full/1582048/coronavirus.jpg?w=591&h=364&f=24ede3b21b9ccb8033fcbcb544e11999"
                 alt="Card image cap">
-              <p class="text-bottom p-0 m-0">U.S</p>
+              <p class="text-bottom m-0 font-weight-bold">U.S</p>
             </div>
             <div class="card-body p-0">
+              <h5 class="font-weight-bold"><a class="text-decoration-none text-cont" href="#">What Does a Furlough Mean
+                for Your Employment Rights?</a></h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
                 content.</p>
             </div>
           </div>
-          <div class="col-12 row">
+          <!--Pandemic Heroes-->
+          <p class="text-muted font-weight-bold">Heroes of the Pandemic</p>
+          <div class="col-12 row justify-content-between m-0 p-0">
             <div class=" col-12 col-md-4 p-0">
-              <div class="card border-0 mx-2">
+              <div class="card border-0 mr-2">
                 <div class="image-wrapper">
                   <img class="card-img-top"
                     src="https://d.newsweek.com/en/full/1578357/restauranteur-delivers-oranges-hospital-workers-amid-coronavirus-crisis.jpg?w=397&h=397&f=c821b8426a180c7ef06fe0ae3a80a48b"
                     alt="Card image cap">
-                  <p class="text-bottom p-0 m-0">U.S</p>
+                  <p class="pan-text p-0 m-0"><a class="text-decoration-none" href="#">Pandemic Heroes</a></p>
                 </div>
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
+                <div class="card-body p-0">
+                  <div class="card-title">
+                    <a href="#">Restauranteur Delivers Oranges to Hospital Workers Amid Coronavirus Crisis</a>
+                  </div>
+                  <p class="card-text">"We all have to help each other," Matthew Fermin, owner of East Harlem restaurant Santiago's Beer Garden, told Newsweek.</p>
                 </div>
               </div>
             </div>
             <div class=" col-12 col-md-4 p-0">
-              <div class="card border-0 mx-2">
+              <div class="card border-0 mx-1">
                 <div class="image-wrapper">
                   <img class="card-img-top"
-                    src="https://d.newsweek.com/en/full/1578357/restauranteur-delivers-oranges-hospital-workers-amid-coronavirus-crisis.jpg?w=397&h=397&f=c821b8426a180c7ef06fe0ae3a80a48b"
+                    src="https://d.newsweek.com/en/full/1578426/zoe-monterola-founder-six-feet-supplies.jpg?w=397&h=397&f=f7a624e81aa902878bb39d5fe83e971f"
                     alt="Card image cap">
-                  <p class="text-bottom p-0 m-0">U.S</p>
+                  <p class="pan-text p-0 m-0"><a class="text-decoration-none" href="#">Pandemic Heroes</a></p>
                 </div>
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
+                <div class="card-body p-0">
+                  <div class="card-title">
+                    <a href="#">Teenagers Shop for the Vulnerable During Coronavirus Emergency</a>
+                  </div>
+                  <p class="card-text">"I almost cried," said a user of Six Feet Supplies, a charity started by teenagers who shop for those susceptible to COVID-19.</p>
                 </div>
               </div>
             </div>
             <div class="col-12 col-md-4 p-0">
-              <div class="card border-0 mx-2">
+              <div class="card border-0 ml-2">
                 <div class="image-wrapper">
                   <img class="card-img-top"
-                    src="https://d.newsweek.com/en/full/1578357/restauranteur-delivers-oranges-hospital-workers-amid-coronavirus-crisis.jpg?w=397&h=397&f=c821b8426a180c7ef06fe0ae3a80a48b"
+                    src="https://d.newsweek.com/en/full/1578399/coronavirus-pandemic-heroes-food-nurses-philadelphia.jpg?w=397&h=397&f=df54d52fbce46b666dc3c098564d1f08"
                     alt="Card image cap">
-                  <p class="text-bottom p-0 m-0">U.S</p>
+                  <p class="pan-text p-0 m-0"><a class="text-decoration-none" href="#">Pandemic Heroes</a></p>
                 </div>
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
+                <div class="card-body p-0">
+                  <div class="card-title">
+                    <a href="#">Philly DJ Rallies Friends, Strangers to Feed Nurses and Support Businesses</a>
+                  </div>
+                  <p class="card-text">"I want to keep it going as long as we can," Ryan O'Connell told Newsweek.</p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-12 row">
+          <p class="text-muted font-weight-bold">Culture & Travel</p>
+          <div class="col-12 row justify-content-between m-0 p-0">
             <div class=" col-12 col-md-4 p-0">
-              <div class="card border-0 mx-2">
+              <div class="card border-0 mr-2">
                 <div class="image-wrapper">
                   <img class="card-img-top"
-                    src="https://d.newsweek.com/en/full/1578357/restauranteur-delivers-oranges-hospital-workers-amid-coronavirus-crisis.jpg?w=397&h=397&f=c821b8426a180c7ef06fe0ae3a80a48b"
+                    src="https://d.newsweek.com/en/full/1581225/cul-cbd-mad-tasty-6-pack.jpg?w=397&h=397&f=3d0b6829f435fd401e1fb7c0a637e46e"
                     alt="Card image cap">
-                  <p class="text-bottom p-0 m-0">U.S</p>
+                  <p class="pan-text p-0 m-0"><a class="text-decoration-none" href="#">Cbd</a></p>
                 </div>
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
+                <div class="card-body p-0">
+                  <div class="card-title">
+                    <a href="#">Soothing CBD Gifts for an Anxious Time</a>
+                  </div>
+                  <p class="card-text">CBD may be just the thing to make the stress everyone is feeling a little more bearable. We tested more than 25 gift sets that are a timely treat for yourself or someone from whom you are social distancing.</p>
                 </div>
               </div>
             </div>
             <div class=" col-12 col-md-4 p-0">
-              <div class="card border-0 mx-2">
+              <div class="card border-0 mx-1">
                 <div class="image-wrapper">
                   <img class="card-img-top"
-                    src="https://d.newsweek.com/en/full/1578357/restauranteur-delivers-oranges-hospital-workers-amid-coronavirus-crisis.jpg?w=397&h=397&f=c821b8426a180c7ef06fe0ae3a80a48b"
+                    src="https://d.newsweek.com/en/full/1580577/sunrise-behind-empire-state-building-new-york-city.jpg?w=397&h=397&f=dee43d9664b5b2547300eac51bde967a"
                     alt="Card image cap">
-                  <p class="text-bottom p-0 m-0">U.S</p>
+                  <p class="pan-text p-0 m-0"><a class="text-decoration-none" href="#">New york</a></p>
                 </div>
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
+                <div class="card-body p-0">
+                  <div class="card-title">
+                    <a href="#">The Relief of Uncertainty, Muses One New Yorker</a>
+                  </div>
+                  <p class="card-text">In these pestilent days of being a New York City denizen during the age of COVID-19, one travel writer muses on what we can learn from the uncertainty of reality.</p>
                 </div>
               </div>
             </div>
             <div class="col-12 col-md-4 p-0">
-              <div class="card border-0 mx-2">
+              <div class="card border-0 ml-2">
                 <div class="image-wrapper">
                   <img class="card-img-top"
-                    src="https://d.newsweek.com/en/full/1578357/restauranteur-delivers-oranges-hospital-workers-amid-coronavirus-crisis.jpg?w=397&h=397&f=c821b8426a180c7ef06fe0ae3a80a48b"
+                    src="https://d.newsweek.com/en/full/1579421/cul-uncharted-nature-02.jpg?w=397&h=397&f=4b429d9dd20904ac5f4d4d873d71791a"
                     alt="Card image cap">
-                  <p class="text-bottom p-0 m-0">U.S</p>
+                  <p class="pan-text p-0 m-0"><a class="text-decoration-none" href="#">Nature</a></p>
                 </div>
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
+                <div class="card-body p-0">
+                  <div class="card-title">
+                    <a href="#">Marvel at These 10 Freaks of Nature</a>
+                  </div>
+                  <p class="card-text">The world is filled with unique, breathtaking natural wonders—from boiling craters to caves full of luminescent glowworms. These 10 sites are a great place to start when looking for hope in some of Mother Nature's greatest offerings.</p>
                 </div>
               </div>
             </div>
           </div>
+          <!--MoreStories-->
          <div>
           <p class="text-uppercase font-weight-bold text-muted ">More Stories</p>
           <div class="d-flex border-top border-bottom  mb-3 op-cont py-2">
@@ -258,11 +321,11 @@
         </div>
       </div>
       <!-- OPINION SECTION-->
-      <div class="opinion col-12 col-lg-4 border-0 outline-0">
+      <div class="opinion col-12 col-lg-3 border-0 outline-0">
         <p class="text-uppercase font-weight-bold text-muted ">opinion</p>
         <div class="">
-          <div class="d-flex border-bottom  ml-0 pl-0 mb-3 op-cont py-2">
-            <img class="pr-3 mb-2"
+          <div class="d-flex border-bottom  ml-0 pl-0 py-2 mb-3 op-cont">
+            <img class="pr-2 mb-2 opinion-img"
               src="https://d.newsweek.com/en/full/109587/fred-guttenberg.png?w=63&h=63&f=a99ccb96daeaf39fdc9f392003761454"
               alt="Fred">
             <div>
@@ -275,7 +338,7 @@
             </div>
           </div>
           <div class="d-flex border-bottom ml-0 pl-0 mb-3 op-cont py-2">
-            <img class="pr-3 mb-2"
+            <img class="pr-2 mb-2 opinion-img"
               src="https://d.newsweek.com/en/full/109587/fred-guttenberg.png?w=63&h=63&f=a99ccb96daeaf39fdc9f392003761454"
               alt="Fred">
             <div>
@@ -288,7 +351,7 @@
             </div>
           </div>
           <div class="d-flex border-bottom ml-0 pl-0 mb-3 op-cont py-2">
-            <img class="pr-3 mb-2"
+            <img class="pr-2 mb-2 opinion-img"
               src="https://d.newsweek.com/en/full/109587/fred-guttenberg.png?w=63&h=63&f=a99ccb96daeaf39fdc9f392003761454"
               alt="Fred">
             <div>
@@ -301,7 +364,7 @@
             </div>
           </div>
           <div class="d-flex border-bottom ml-0 pl-0 mb-3 op-cont py-2">
-            <img class="pr-3 mb-2"
+            <img class="pr-2 mb-2 opinion-img"
               src="https://d.newsweek.com/en/full/109587/fred-guttenberg.png?w=63&h=63&f=a99ccb96daeaf39fdc9f392003761454"
               alt="Fred">
             <div>
@@ -314,7 +377,7 @@
             </div>
           </div>
           <div class="d-flex border-bottom ml-0 pl-0 mb-3 op-cont py-2">
-            <img class="pr-3 mb-2"
+            <img class="pr-2 mb-2 opinion-img"
               src="https://d.newsweek.com/en/full/109587/fred-guttenberg.png?w=63&h=63&f=a99ccb96daeaf39fdc9f392003761454"
               alt="Fred">
             <div>
@@ -327,7 +390,7 @@
             </div>
           </div>
           <div class="d-flex border-bottom ml-0 pl-0 mb-3 op-cont py-2">
-            <img class="pr-3 mb-2"
+            <img class="pr-2 mb-2 opinion-img"
               src="https://d.newsweek.com/en/full/109587/fred-guttenberg.png?w=63&h=63&f=a99ccb96daeaf39fdc9f392003761454"
               alt="Fred">
             <div>
@@ -339,10 +402,12 @@
               </p>
             </div>
           </div>
+
+          <!-- Sec-->
           <div>
             <p class="text-uppercase font-weight-bold text-muted ">opinion</p>
             <div class="d-flex border-bottom  ml-0 pl-0 mb-3 op-cont py-2">
-              <img class="pr-3 mb-2" src="https://d.newsweek.com/en/full/1581653/prince-harry.jpg?w=95&h=95&f=8c22cac59f2666e8f86f95fa171a71e9" alt="Fred">
+              <img class="pr-2 mb-2 " src="https://d.newsweek.com/en/full/1581653/prince-harry.jpg?w=95&h=95&f=8c22cac59f2666e8f86f95fa171a71e9" alt="Fred">
               <div>
                 <p class="font-weight-bold">
                   <a class="text-decoration-none" href="#">Only Joe Biden Has the Ability Now to Heal This Nation </a>
@@ -352,6 +417,9 @@
           </div>
         </div>
       </div>
+    </div>
+  </main>
+  </div>
       <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
