@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Rokkitt:700&display=swap');
 
+body {
+  font-weight: "Roboto Condensed", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  line-height: 20px;
+  font-size: 15px;
+}
+
 .container-fluid {
   padding-left: 30px;
   padding-right: 30px;
@@ -120,7 +126,6 @@
 }
 
 .more-img {
-  object-fit: cover;
   width: 95px;
   height: 95px;
 }
@@ -128,4 +133,30 @@
 .more-img1 {
   width: 95px;
   height: 95px;
+}
+
+.more-text {
+  line-height: 1em;
+  font-size: 15px;
+  color: #333;
+}
+
+.more-cont {
+  width: 100%;
+}
+
+.by-mike {
+  line-height: 20px;
+}
+
+.pan-title {
+  font: 20px/22px "Lora", serif;
+  color: #666;
+}
+
+.heroes-title {
+  font-size: 16px;
+  font-weight: bold;
+  font-style: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
 }
