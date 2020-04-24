@@ -6,6 +6,10 @@ body {
   font-size: 15px;
 }
 
+a {
+  color: inherit;
+}
+
 .container-fluid .container {
   max-width: 1310px;
 }
@@ -47,6 +51,28 @@ body {
     height: 57px;
     padding: 0 2px !important;
   }
+}
+
+@media screen and (ma-width: 768px) {
+ 
+}
+
+.mag-poster {
+  object-fit: cover;
+  height: auto;
+  width: 100%;
+}
+
+.mag-img {
+  object-fit: cover;
+  height: 22vw;
+  width: 100%;
+}
+
+.cover-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .pan-text a {
@@ -176,4 +202,37 @@ body {
   color: black;
   border-bottom: 1px solid red;
   padding-bottom: 1px;
+}
+
+.n-icon {
+  flex: none;
+  display: block;
+  width: 29px;
+  height: 28px;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+  margin-right: 10px;
+}
+
+.mag-title {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: nowrap;
+ }
+
+.cover-sec {
+  font: bold 16px/26px "Roboto Condensed", sans-serif;
+  color: #f72210;
+  text-transform: uppercase;
+}
+
+.cover-sec span {
+  display: inline-block;
+}
+
+.cover{
+  padding: 0 7px;
+  background-color: #f72210;
+  color: white;
+  margin-right: 7px;
 }
