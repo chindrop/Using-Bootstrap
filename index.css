@@ -53,10 +53,6 @@ a {
   }
 }
 
-@media screen and (ma-width: 768px) {
- 
-}
-
 .mag-poster {
   object-fit: cover;
   height: auto;
@@ -88,6 +84,12 @@ a {
 .pan-text a:hover {
   background-color: #272727;
   color: #c2d4d7;
+}
+
+.sponsor a:hover {
+  color: black;
+  border-bottom: 1px solid red;
+  padding-bottom: 1px;
 }
 
 .featured-stories h5 > a:hover {
@@ -198,12 +200,6 @@ a {
   color: #3581f4;
 }
 
-.sponsor a:hover {
-  color: black;
-  border-bottom: 1px solid red;
-  padding-bottom: 1px;
-}
-
 .n-icon {
   flex: none;
   display: block;
@@ -214,11 +210,11 @@ a {
 }
 
 .mag-title {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-wrap: nowrap;
- }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
 
 .cover-sec {
   font: bold 16px/26px "Roboto Condensed", sans-serif;
@@ -230,9 +226,27 @@ a {
   display: inline-block;
 }
 
-.cover{
+.cover {
   padding: 0 7px;
   background-color: #f72210;
   color: white;
   margin-right: 7px;
+}
+
+.mag-text-img {
+  display: flex;
+  justify-content: space-between;
+}
+
+.second-image {
+  position: absolute;
+  height: 100%;
+  left: 46%;
+  top: 6%;
+}
+
+.below-heading {
+  font-size: 20px;
+  font-weight: bold;
+  color: #f72210;
 }
