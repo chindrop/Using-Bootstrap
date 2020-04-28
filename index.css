@@ -119,6 +119,7 @@ a {
   padding: 8px 15px 9px;
   background-color: rgba(255, 255, 255, 0.9);
   z-index: 1;
+  font-weight: bold;
 }
 
 .op-cont p > a:hover {
@@ -236,6 +237,7 @@ a {
 .mag-text-img {
   display: flex;
   justify-content: space-between;
+  background-color: rgba(224, 219, 219, 0.3);
 }
 
 .second-image {
@@ -250,3 +252,24 @@ a {
   font-weight: bold;
   color: #f72210;
 }
+
+.text-mag {
+  text-align: left;
+  padding: 10px;
+}
+
+.new-cont {
+  display: flex;
+}
+
+.image-wrap1 {
+  background-image: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5");
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.text-sec {
+  flex: 1;
+}
+
