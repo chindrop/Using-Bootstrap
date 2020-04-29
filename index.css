@@ -48,7 +48,7 @@ a {
   }
 }
 
-@media screen and (min-width: 576px) { 
+@media screen and (min-width: 576px) {
   .mag-img {
     object-fit: cover;
     height: 100%;
@@ -79,6 +79,11 @@ a {
   font: 300 13px/20px "Helvetica Neue", "Helvetica", Arial, sans-serif;
 }
 
+.foot-all a {
+  text-decoration: none;
+  color: #6c757d;
+}
+
 .op-cont p > a {
   color: black;
   line-height: 1;
@@ -93,6 +98,10 @@ a {
   color: black;
   border-bottom: 1px solid red;
   padding-bottom: 1px;
+}
+
+.foot-all a:hover {
+  color: rgb(14, 11, 11);
 }
 
 .featured-stories h5 > a:hover {
@@ -286,15 +295,6 @@ a {
 .newsweek-bootom-logo {
   width: 236px;
   fill: #f72210;
-}
-
-.foot-all a {
-  text-decoration: none;
-  color: #6c757d;
-}
-
-.foot-all a:hover {
-  color: rgb(14, 11, 11);
 }
 
 .maga-title h5 > a:hover {
