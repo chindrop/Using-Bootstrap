@@ -11,11 +11,6 @@ a {
   max-width: 1310px;
 }
 
-.container-fluid {
-  padding-left: 30px;
-  padding-right: 30px;
-}
-
 .middle-logo img {
   object-position: 0 0;
   height: 70px;
@@ -29,6 +24,20 @@ a {
 .fas {
   font-size: 2.5rem;
   color: rgba(255, 255, 255, 0.7);
+}
+
+.sus-button {
+  font-size: 13px;
+}
+
+.tank {
+  background-color: #f72210;
+  width: 78px;
+  height: 13px;
+  border-left: 12px solid white;
+  border-top: 13px solid #f72210;
+  right: 0;
+  left: 94.2%;
 }
 
 @media screen and (max-width: 991px) {
@@ -283,6 +292,16 @@ a {
   height: 321px;
   background-size: cover;
   background-position: center center;
+}
+
+.top-logo {
+  fill: white;
+  width: 112px;
+}
+
+.fa-bars {
+  vertical-align: middle;
+  font-size: 23px;
 }
 
 .text-sec {
