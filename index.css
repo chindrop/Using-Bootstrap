@@ -1,7 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Rokkitt:700&display=swap');
-
 body {
-  font-weight: "Roboto Condensed", "Helvetica Neue", "Helvetica", Arial, sans-serif;
   line-height: 20px;
   font-size: 15px;
 }
@@ -56,6 +53,12 @@ a {
   }
 }
 
+@media (min-width: 767px) {
+  .maga-title {
+    margin-top: 12px;
+  }
+}
+
 .mag-poster {
   object-fit: cover;
   height: auto;
@@ -76,7 +79,7 @@ a {
 
 .pan-text a {
   color: #272727;
-  font: 300 13px/20px "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  font: 300 13px/20px;
 }
 
 .foot-all a {
@@ -126,7 +129,6 @@ a {
 .text-bottom {
   position: absolute;
   bottom: 0;
-  font-style: "Roboto Condensed", sans-serif;
   color: #f72210;
   padding: 8px 15px 9px;
   background-color: rgba(255, 255, 255, 0.9);
@@ -198,7 +200,6 @@ a {
 .heroes-title {
   font-size: 16px;
   font-weight: bold;
-  font-style: "Roboto Condensed", sans-serif;
   text-transform: uppercase;
 }
 
@@ -307,4 +308,36 @@ a {
   color: black;
   border-bottom: 1px solid red;
   padding-bottom: 1px;
+}
+
+.debate .opinion-img {
+  width: 142px;
+  height: 95px;
+}
+
+.debate .debate-1 {
+  border-top: 4px solid #f92859;
+}
+
+.debate .debate-2 {
+  border-top: 4px solid #1c87fb;
+}
+
+.debate .debator-img {
+  position: absolute;
+  z-index: 2;
+  width: 63px;
+  right: 6%;
+  top: 70%;
+}
+
+.debate .dvs {
+  width: 40px;
+  height: 40px;
+  background-color: #000;
+  color: #d6d6d6;
+  border-radius: 50%;
+  font: bold 14px/40px "Roboto Condensed", sans-serif;
+  text-align: center;
+  margin: 14px auto 18px;
 }
