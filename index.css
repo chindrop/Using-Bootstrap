@@ -34,7 +34,6 @@ a {
   font-size: 13px;
 }
 
-
 @media screen and (max-width: 991px) {
   .middle-logo img {
     object-position: 0 0;
