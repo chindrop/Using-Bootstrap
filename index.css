@@ -1,7 +1,10 @@
+html {
+  overflow-x: hidden;
+}
+
 body {
   line-height: 20px;
   font-size: 15px;
-  overflow-x: hidden;
 }
 
 a {
@@ -31,15 +34,6 @@ a {
   font-size: 13px;
 }
 
-.tank {
-  background-color: #f72210;
-  width: 78px;
-  height: 13px;
-  border-left: 12px solid white;
-  border-top: 13px solid #f72210;
-  right: 0;
-  left: 94.2%;
-}
 
 @media screen and (max-width: 991px) {
   .middle-logo img {
